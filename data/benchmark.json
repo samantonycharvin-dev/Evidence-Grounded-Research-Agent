@@ -1,0 +1,26 @@
+[
+  {
+    "id": "Q01",
+    "category": "direct_factual",
+    "question": "How is RAG evaluated?",
+    "expected_behavior": "Give a concise evidence-grounded explanation of RAG evaluation and cite the supporting source."
+  },
+  {
+    "id": "Q03",
+    "category": "multi_source_synthesis",
+    "question": "What are several ways RAG systems can fail or become unreliable?",
+    "expected_behavior": "Synthesize evidence from multiple retrieved sources and identify distinct reliability problems without inventing unsupported claims."
+  },
+  {
+    "id": "Q07",
+    "category": "conflicting_evidence",
+    "question": "Do the sources agree that retrieving more information always improves RAG reliability?",
+    "expected_behavior": "Identify whether the retrieved evidence supports agreement, disagreement, or insufficient evidence. Do not force a consensus."
+  },
+  {
+    "id": "Q09",
+    "category": "insufficient_evidence",
+    "question": "Does increasing the number of retrieved documents always improve factual accuracy?",
+    "expected_behavior": "Determine whether the available evidence is sufficient to support a universal claim. Abstain or qualify the conclusion if the evidence does not establish it."
+  }
+]

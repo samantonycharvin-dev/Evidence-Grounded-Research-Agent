@@ -1,0 +1,127 @@
+[
+  {
+    "id": "Q01",
+    "category": "direct_factual",
+    "question": "How is RAG evaluated?",
+    "status": "completed",
+    "answer": "Based on the provided evidence, RAG systems are evaluated by considering both the retrieved context and the generated answer [S01]. Key evaluation concerns include:\n\n* Whether the retrieved information is relevant [S01].\n* Whether the generated answers are supported by the retrieved information [S01].\n* Whether the answers appropriately address the question [S01].",
+    "retrieved_sources": [
+      "S01"
+    ],
+    "verification": {
+      "claims": [
+        {
+          "claim": "RAG systems are evaluated by considering both the retrieved context and the generated answer.",
+          "supported": true,
+          "reason": "Evidence S01 directly states that RAG systems can be evaluated by considering both the retrieved context and the generated answer.",
+          "source_ids": [
+            "S01"
+          ]
+        },
+        {
+          "claim": "A key evaluation concern is whether the retrieved information is relevant.",
+          "supported": true,
+          "reason": "Evidence S01 states that important evaluation concerns include whether retrieved information is relevant.",
+          "source_ids": [
+            "S01"
+          ]
+        },
+        {
+          "claim": "A key evaluation concern is whether the generated answers are supported by the retrieved information.",
+          "supported": true,
+          "reason": "Evidence S01 indicates that an important evaluation concern is whether generated answers are supported by the retrieved information.",
+          "source_ids": [
+            "S01"
+          ]
+        },
+        {
+          "claim": "A key evaluation concern is whether the answers appropriately address the question.",
+          "supported": true,
+          "reason": "Evidence S01 notes that an important evaluation concern includes whether answers appropriately address the question.",
+          "source_ids": [
+            "S01"
+          ]
+        }
+      ]
+    },
+    "metrics": {
+      "total_claims": 4,
+      "supported_claims": 4,
+      "unsupported_claims": 0,
+      "support_rate": 1.0,
+      "refinement_attempts": 0
+    }
+  },
+  {
+    "id": "Q03",
+    "category": "multi_source_synthesis",
+    "question": "What are several ways RAG systems can fail or become unreliable?",
+    "status": "completed",
+    "answer": "Based on the provided evidence, the text does not provide an exhaustive list of explicit failure scenarios, but it highlights key evaluation concerns, metrics, and pipeline weaknesses that indicate how RAG systems can fall short or be unreliable:\n\n* **Retrieval of irrelevant information:** Systems can fail to retrieve relevant context (evaluated as context relevance) [S01, S02].\n* **Unsupported generated answers:** The generated answers may fail to be supported by the retrieved information (evaluated as answer faithfulness) [S01, S02].\n* **Failure to address the question:** Generated answers may fail to appropriately address the question (evaluated as answer relevance) [S01, S02].\n* **Weaknesses across pipeline stages:** Weaknesses can occur separately in different parts of the RAG pipeline, specifically in the retrieval component and the generation component [S03].",
+    "retrieved_sources": [
+      "S01",
+      "S02",
+      "S03"
+    ],
+    "verification": {
+      "claims": [
+        {
+          "claim": "RAG systems can fail to retrieve relevant context, which is evaluated as context relevance.",
+          "supported": true,
+          "reason": "S01 states that an important evaluation concern is whether retrieved information is relevant, and S02 confirms that ARES evaluates context relevance.",
+          "source_ids": [
+            "S01",
+            "S02"
+          ]
+        },
+        {
+          "claim": "Generated answers in RAG systems may fail to be supported by the retrieved information, which is evaluated as answer faithfulness.",
+          "supported": true,
+          "reason": "S01 notes an important evaluation concern is whether generated answers are supported by the retrieved information, and S02 lists answer faithfulness as an evaluation metric.",
+          "source_ids": [
+            "S01",
+            "S02"
+          ]
+        },
+        {
+          "claim": "Generated answers may fail to appropriately address the question, which is evaluated as answer relevance.",
+          "supported": true,
+          "reason": "S01 mentions an evaluation concern is whether answers appropriately address the question, and S02 notes that answer relevance is evaluated.",
+          "source_ids": [
+            "S01",
+            "S02"
+          ]
+        },
+        {
+          "claim": "Weaknesses can occur separately across different parts of the RAG pipeline, specifically in retrieval and generation.",
+          "supported": true,
+          "reason": "S03 states that RAGChecker separates evaluation of retrieval and generation and provides diagnostic metrics to identify weaknesses in different parts of a RAG pipeline.",
+          "source_ids": [
+            "S03"
+          ]
+        }
+      ]
+    },
+    "metrics": {
+      "total_claims": 4,
+      "supported_claims": 4,
+      "unsupported_claims": 0,
+      "support_rate": 1.0,
+      "refinement_attempts": 0
+    }
+  },
+  {
+    "id": "Q07",
+    "category": "conflicting_evidence",
+    "question": "Do the sources agree that retrieving more information always improves RAG reliability?",
+    "status": "error",
+    "error": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+  },
+  {
+    "id": "Q09",
+    "category": "insufficient_evidence",
+    "question": "Does increasing the number of retrieved documents always improve factual accuracy?",
+    "status": "error",
+    "error": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+  }
+]

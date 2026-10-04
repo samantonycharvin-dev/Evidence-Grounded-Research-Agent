@@ -1,0 +1,50 @@
+[
+  {
+    "source_id": "S01",
+    "title": "Evaluation of Retrieval-Augmented Generation: A Survey",
+    "year": 2024,
+    "topic": "RAG evaluation",
+    "text": "Retrieval-Augmented Generation (RAG) combines information retrieval with language generation. RAG systems can be evaluated by considering both the retrieved context and the generated answer. Important evaluation concerns include whether retrieved information is relevant, whether generated answers are supported by the retrieved information, and whether answers appropriately address the question.",
+    "url": "https://arxiv.org/abs/2405.07437"
+  },
+  {
+    "source_id": "S02",
+    "title": "ARES: An Automated Evaluation Framework for Retrieval-Augmented Generation Systems",
+    "year": 2024,
+    "topic": "RAG evaluation",
+    "text": "ARES is an automated framework for evaluating Retrieval-Augmented Generation systems. It evaluates context relevance, answer faithfulness, and answer relevance. ARES uses lightweight language-model judges trained using synthetic data and validates its evaluation approach using human annotations.",
+    "url": "https://aclanthology.org/2024.naacl-long.20/"
+  },
+  {
+    "source_id": "S03",
+    "title": "RAGChecker: A Fine-grained Framework for Diagnosing Retrieval-Augmented Generation",
+    "year": 2024,
+    "topic": "RAG diagnostics",
+    "text": "RAGChecker provides fine-grained evaluation and diagnosis of Retrieval-Augmented Generation systems. It separates evaluation of retrieval and generation and provides claim-level diagnostic metrics to identify weaknesses in different parts of a RAG pipeline.",
+    "url": "https://arxiv.org/abs/2408.08067"
+  },
+  {
+    "source_id": "S04",
+    "title": "Enabling Large Language Models to Generate Text with Citations",
+    "year": 2023,
+    "topic": "Citations",
+    "text": "Generating answers with citations is an important approach for making language-model outputs more verifiable. Citation generation connects generated statements with supporting source material, allowing users to inspect the evidence behind an answer.",
+    "url": "https://aclanthology.org/2023.emnlp-main.398/"
+  },
+  {
+    "source_id": "S05",
+    "title": "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",
+    "year": 2024,
+    "topic": "Adaptive retrieval",
+    "text": "Self-RAG introduces a framework in which a language model can retrieve information when useful and use reflection mechanisms to critique retrieved evidence and generated outputs. The approach is designed to improve factuality and quality compared with always retrieving a fixed amount of information.",
+    "url": "https://arxiv.org/abs/2310.11511"
+  },
+  {
+    "source_id": "S06",
+    "title": "Corrective Retrieval Augmented Generation",
+    "year": 2024,
+    "topic": "Corrective retrieval",
+    "text": "Corrective Retrieval Augmented Generation introduces mechanisms for evaluating retrieved documents and taking corrective actions when retrieved information is inadequate. The approach is intended to improve the robustness of RAG systems when initial retrieval is not sufficiently reliable.",
+    "url": "https://arxiv.org/abs/2401.15884"
+  }
+]
