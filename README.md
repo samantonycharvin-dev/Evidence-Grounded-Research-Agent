@@ -30,3 +30,12 @@ YES      NO
 FINAL   REFINE
           ↓
        RETRIEVE
+
+## Data Safety & Compliance
+
+- This project uses only synthetic and curated public research data.
+- No client or company data is included.
+- All sources are publicly available (arXiv, ACL Anthology, EMNLP).
+- No personal identifiers, secrets, or credentials are stored in this repository.
+- Dependencies are audited regularly for security vulnerabilities.
+- GitHub Secret Protection and Push Protection are enabled to prevent accidental leaks.
