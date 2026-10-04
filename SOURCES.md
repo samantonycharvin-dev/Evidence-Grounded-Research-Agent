@@ -70,3 +70,18 @@ AI tools were used for coding assistance, debugging, explanations, and implement
 The project architecture, research question, evaluation design, benchmark structure, experimental decisions, execution, interpretation, and final validation were reviewed by the author.
 
 No employer or client information was used as training or evaluation data.
+
+## Attribution Note
+
+This project uses only publicly available academic sources.  
+No client or company data is included.
+
+### Sources Referenced
+- **Evaluation of Retrieval-Augmented Generation: A Survey** (2024) – arXiv  
+- **ARES: An Automated Evaluation Framework for Retrieval-Augmented Generation Systems** (2024) – ACL Anthology  
+- **RAGChecker: A Fine-grained Framework for Diagnosing Retrieval-Augmented Generation** (2024) – arXiv  
+- **Enabling Large Language Models to Generate Text with Citations** (2023) – ACL Anthology  
+- **Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection** (2024) – arXiv  
+- **Corrective Retrieval Augmented Generation** (2024) – arXiv  
+
+All sources are cited with their original URLs in the corpus data.  
